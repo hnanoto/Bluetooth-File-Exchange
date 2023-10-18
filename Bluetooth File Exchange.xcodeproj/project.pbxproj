@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE65E2912ADF2B9800ECEBC0 /* Bluetooth_File_Exchange.c in Sources */ = {isa = PBXBuildFile; fileRef = BE65E2902ADF2B9800ECEBC0 /* Bluetooth_File_Exchange.c */; };
+		BE65E29B2ADF2C5A00ECEBC0 /* Bluetooth File Exchange in Resources */ = {isa = PBXBuildFile; fileRef = BE65E29A2ADF2C5A00ECEBC0 /* Bluetooth File Exchange */; };
+		BE65E29D2ADF2C9E00ECEBC0 /* CodeResources in Resources */ = {isa = PBXBuildFile; fileRef = BE65E29C2ADF2C9E00ECEBC0 /* CodeResources */; };
+		BE65E29F2ADF2DD600ECEBC0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE65E29E2ADF2DD600ECEBC0 /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE65E28D2ADF2B9700ECEBC0 /* Bluetooth File Exchange.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bluetooth File Exchange.kext"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE65E2902ADF2B9800ECEBC0 /* Bluetooth_File_Exchange.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Bluetooth_File_Exchange.c; sourceTree = "<group>"; };
+		BE65E29A2ADF2C5A00ECEBC0 /* Bluetooth File Exchange */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "Bluetooth File Exchange"; sourceTree = "<group>"; };
+		BE65E29C2ADF2C9E00ECEBC0 /* CodeResources */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CodeResources; sourceTree = "<group>"; };
+		BE65E29E2ADF2DD600ECEBC0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE65E28A2ADF2B9700ECEBC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE65E2832ADF2B9700ECEBC0 = {
+			isa = PBXGroup;
+			children = (
+				BE65E28F2ADF2B9700ECEBC0 /* Bluetooth File Exchange */,
+				BE65E28E2ADF2B9700ECEBC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE65E28E2ADF2B9700ECEBC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE65E28D2ADF2B9700ECEBC0 /* Bluetooth File Exchange.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE65E28F2ADF2B9700ECEBC0 /* Bluetooth File Exchange */ = {
+			isa = PBXGroup;
+			children = (
+				BE65E29E2ADF2DD600ECEBC0 /* Info.plist */,
+				BE65E2902ADF2B9800ECEBC0 /* Bluetooth_File_Exchange.c */,
+				BE65E29C2ADF2C9E00ECEBC0 /* CodeResources */,
+				BE65E29A2ADF2C5A00ECEBC0 /* Bluetooth File Exchange */,
+			);
+			path = "Bluetooth File Exchange";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BE65E2882ADF2B9700ECEBC0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BE65E28C2ADF2B9700ECEBC0 /* Bluetooth File Exchange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE65E2952ADF2B9800ECEBC0 /* Build configuration list for PBXNativeTarget "Bluetooth File Exchange" */;
+			buildPhases = (
+				BE65E2882ADF2B9700ECEBC0 /* Headers */,
+				BE65E2892ADF2B9700ECEBC0 /* Sources */,
+				BE65E28A2ADF2B9700ECEBC0 /* Frameworks */,
+				BE65E28B2ADF2B9700ECEBC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bluetooth File Exchange";
+			productName = "Bluetooth File Exchange";
+			productReference = BE65E28D2ADF2B9700ECEBC0 /* Bluetooth File Exchange.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE65E2842ADF2B9700ECEBC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				ORGANIZATIONNAME = Hnanoto;
+				TargetAttributes = {
+					BE65E28C2ADF2B9700ECEBC0 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = BE65E2872ADF2B9700ECEBC0 /* Build configuration list for PBXProject "Bluetooth File Exchange" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE65E2832ADF2B9700ECEBC0;
+			productRefGroup = BE65E28E2ADF2B9700ECEBC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE65E28C2ADF2B9700ECEBC0 /* Bluetooth File Exchange */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE65E28B2ADF2B9700ECEBC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE65E29D2ADF2C9E00ECEBC0 /* CodeResources in Resources */,
+				BE65E29B2ADF2C5A00ECEBC0 /* Bluetooth File Exchange in Resources */,
+				BE65E29F2ADF2DD600ECEBC0 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE65E2892ADF2B9700ECEBC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE65E2912ADF2B9800ECEBC0 /* Bluetooth_File_Exchange.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BE65E2932ADF2B9800ECEBC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BE65E2942ADF2B9800ECEBC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BE65E2962ADF2B9800ECEBC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bluetooth File Exchange/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Allow BT";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2002-2021 Apple Inc. All rights reserved.";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 0.0.1;
+				MODULE_NAME = "Hackintosh and Beyond.Bluetooth_File_Exchange";
+				MODULE_START = Bluetooth_File_Exchange_start;
+				MODULE_STOP = Bluetooth_File_Exchange_stop;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_BUNDLE_IDENTIFIER = "Hackintosh-and-Beyond.Bluetooth-File-Exchange";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		BE65E2972ADF2B9800ECEBC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bluetooth File Exchange/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Allow BT";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2002-2021 Apple Inc. All rights reserved.";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 0.0.1;
+				MODULE_NAME = "Hackintosh and Beyond.Bluetooth_File_Exchange";
+				MODULE_START = Bluetooth_File_Exchange_start;
+				MODULE_STOP = Bluetooth_File_Exchange_stop;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_BUNDLE_IDENTIFIER = "Hackintosh-and-Beyond.Bluetooth-File-Exchange";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE65E2872ADF2B9700ECEBC0 /* Build configuration list for PBXProject "Bluetooth File Exchange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE65E2932ADF2B9800ECEBC0 /* Debug */,
+				BE65E2942ADF2B9800ECEBC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE65E2952ADF2B9800ECEBC0 /* Build configuration list for PBXNativeTarget "Bluetooth File Exchange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE65E2962ADF2B9800ECEBC0 /* Debug */,
+				BE65E2972ADF2B9800ECEBC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE65E2842ADF2B9700ECEBC0 /* Project object */;
+}
