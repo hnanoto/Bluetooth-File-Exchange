@@ -3,7 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>22A380017</string>
+	<string>22A380021</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
@@ -21,40 +23,62 @@
 			<string>None</string>
 		</dict>
 	</array>
+	<key>CFBundleExecutable</key>
+	<string>BluetoothFileExchange</string>
 	<key>CFBundleGetInfoString</key>
 	<string>7.0.0, Copyright © 2002-2018 Apple Inc. All rights reserved.</string>
 	<key>CFBundleIconFile</key>
 	<string>AppIcon</string>
 	<key>CFBundleIconName</key>
 	<string>AppIcon</string>
+	<key>CFBundleIdentifier</key>
+	<string>hackintosh-and-Beyond.BluetoothFileExchange</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>BluetoothFileExchange</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.2</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
 	</array>
+	<key>CFBundleVersion</key>
+	<string>1</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>23A343</string>
+	<string>24C100</string>
 	<key>DTPlatformName</key>
 	<string>macosx</string>
 	<key>DTPlatformVersion</key>
-	<string>14.0</string>
+	<string>15.2</string>
 	<key>DTSDKBuild</key>
-	<string>23A343</string>
+	<string>24C100</string>
 	<key>DTSDKName</key>
-	<string>macosx14.0.internal</string>
+	<string>macosx15.2.internal</string>
 	<key>DTXcode</key>
-	<string>1500</string>
+	<string>1600</string>
 	<key>DTXcodeBuild</key>
-	<string>15A6160m</string>
+	<string>16A6170g</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.utilities</string>
 	<key>LSHasLocalizedDisplayName</key>
 	<true/>
 	<key>LSMinimumSystemVersion</key>
-	<string>14.0</string>
+	<string>15.2</string>
 	<key>NSAppleScriptEnabled</key>
 	<true/>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Allow BT</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
 	<key>NSServices</key>
 	<array>
 		<dict>
